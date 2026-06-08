@@ -1,4 +1,4 @@
-package com.example.myapplication2.ui.theme
+package com.example.SrhMap.gui.theme
 
 import androidx.compose.ui.graphics.Color
 
