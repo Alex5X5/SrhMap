@@ -1,6 +1,9 @@
 package com.example.SrhMap.gui.views;
 
 import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -15,7 +18,15 @@ public class MainView extends View {
     public MainView(
             Context context,
             @Nullable AttributeSet attrs) {
-        this(context, attrs, 0);
+        super(context, attrs);
+    }
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        Paint paint = new Paint();
+        paint.setColor(Color.BLUE);
+        canvas.drawCircle(200, 200, 100, paint);
     }
 
     public MainView(
