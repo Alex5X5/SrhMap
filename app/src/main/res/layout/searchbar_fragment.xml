@@ -7,12 +7,9 @@
         android:background="#ffbbbb">
 
     <TextView
+        android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="this is the map fragment"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="this is the map fragment"/>
-
+        android:text="this is the map fragment"
+        />
 </LinearLayout>
